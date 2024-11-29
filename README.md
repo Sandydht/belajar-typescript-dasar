@@ -10,8 +10,8 @@
 ## Proses Development TypeScript
 ```mermaid
 graph TD;
-  TypeScript Code-->tsc (TypeScript Compiler);
-  tsc (TypeScript Compiler)-->JavaScript Code;
+  TypeScript Code --> tsc (TypeScript Compiler);
+  tsc (TypeScript Compiler) --> JavaScript Code;
 ```
 
 ## Keuntungan Belajar TypeScript
