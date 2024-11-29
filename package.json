@@ -1,0 +1,35 @@
+{
+  "name": "belajar-typescript-dasar",
+  "version": "1.0.0",
+  "description": "## Pengenalan TypeScript * TypeScript adalah bahasa pemrograman berorientasi objek yang dibuat oleh Microsoft * TypeScript adalah bahasa pemrograman yang di kompilasi menjadi kode JavaScript * Menggunakan TypeScript akan membuat kode kita lebih mudah di baca dan di debug dibandingkan menggunakan JavaScript * TypeScript adalah bahasa pemrograman yang Strongly Type (Seperti Java, C#, dan C/C++) * [https://www.typescript.org/](https://www.typescript.org/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandydht/belajar-typescript-dasar.git"
+  },
+  "author": "Sandydht",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sandydht/belajar-typescript-dasar/issues"
+  },
+  "homepage": "https://github.com/Sandydht/belajar-typescript-dasar#readme",
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "7.26.0",
+    "@babel/preset-typescript": "7.26.0",
+    "@jest/globals": "29.7.0",
+    "@types/jest": "29.5.14",
+    "babel-jest": "29.7.0",
+    "jest": "29.7.0",
+    "ts-jest": "29.2.5",
+    "typescript": "5.7.2"
+  }
+}
