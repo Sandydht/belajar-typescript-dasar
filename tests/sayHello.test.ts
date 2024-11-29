@@ -1,4 +1,4 @@
-import { sayHello } from "../src/say-hello/index";
+import { sayHello } from "../src/say-hello/sayHello";
 
 describe('sayHello', () => {
   it('should return hello sandy', () => {

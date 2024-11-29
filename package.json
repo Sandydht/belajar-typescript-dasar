@@ -4,7 +4,8 @@
   "description": "## Pengenalan TypeScript * TypeScript adalah bahasa pemrograman berorientasi objek yang dibuat oleh Microsoft * TypeScript adalah bahasa pemrograman yang di kompilasi menjadi kode JavaScript * Menggunakan TypeScript akan membuat kode kita lebih mudah di baca dan di debug dibandingkan menggunakan JavaScript * TypeScript adalah bahasa pemrograman yang Strongly Type (Seperti Java, C#, dan C/C++) * [https://www.typescript.org/](https://www.typescript.org/)",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "build": "npx tsc"
   },
   "jest": {
     "transform": {

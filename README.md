@@ -73,6 +73,7 @@ graph TD;
   ```JSON
   {
     "include": ["src/**/*", "tests/**/*"],
-    "exclude": ["src/**/*.test.ts", "tests/**/*.test.ts"]
+    "exclude": ["src/**/*.test.ts", "tests/**/*.test.ts"],
+    "compilerOptions": {  }
   }
   ```
