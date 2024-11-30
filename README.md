@@ -9,9 +9,16 @@
 
 ## Proses Development TypeScript
 ```mermaid
-graph TD;
-  TypeScript Code --> tsc (TypeScript Compiler);
-  tsc (TypeScript Compiler) --> JavaScript Code;
+flowchart
+  A["TypeScript Code"]
+  B["`
+    tsc
+    (TypeScript Compiler)
+  `"]
+  C["JavaScript Code"]
+
+  A --> B
+  B --> C
 ```
 
 ## Keuntungan Belajar TypeScript
@@ -74,6 +81,6 @@ graph TD;
   {
     "include": ["src/**/*", "tests/**/*"],
     "exclude": ["src/**/*.test.ts", "tests/**/*.test.ts"],
-    "compilerOptions": {  }
+    "compilerOptions": { ... }
   }
   ```

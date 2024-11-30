@@ -1,12 +1,12 @@
 # Say Hello Function
 * Sebelum mulai belajar, kita akan coba buat say hello function dengan file TypeScript
-* src/say-hello.ts
+* src/sayHello.ts
   ```TSX
     export function sayHello(name: String): String {
       return `Hello ${name}`;
     }
   ```
-* test/say-hello.test.ts
+* test/sayHello.test.ts
   ```TSX
     import { sayHello } from '../src/say-hello';
 
