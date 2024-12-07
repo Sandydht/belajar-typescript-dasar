@@ -5,7 +5,7 @@
 * TypeScript adalah bahasa pemrograman yang di kompilasi menjadi kode JavaScript
 * Menggunakan TypeScript akan membuat kode kita lebih mudah di baca dan di debug dibandingkan menggunakan JavaScript
 * TypeScript adalah bahasa pemrograman yang Strongly Type (Seperti Java, C#, dan C/C++)
-* [https://www.typescript.org/](https://www.typescript.org/)
+* [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 
 ## Proses Development TypeScript
 ```mermaid
@@ -53,7 +53,7 @@ flowchart
 * Ubah ``` "module" ``` dari ``` "commonjs" ``` menjadi ``` "ES6" ```
 
 ### Setup TypeScript untuk Jest
-* [https://jest.io/docs/getting-started#using-typescript](https://jest.io/docs/getting-started#using-typescript)
+* [https://jestjs.io/docs/getting-started#using-typescript](https://jestjs.io/docs/getting-started#using-typescript)
 
 ## Kompilasi TypeScript
 
